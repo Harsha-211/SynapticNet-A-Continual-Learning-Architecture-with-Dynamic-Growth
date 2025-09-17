@@ -30,10 +30,15 @@ Flexible Dataset Handling: The TaskDataset wrapper automatically handles differe
 The model was trained sequentially on four datasets without revisiting previous data. Final evaluation accuracies are:
 
 Task	Dataset	Accuracy
+
 Task 1	MNIST	98.89%
+
 Task 2	Fashion-MNIST	95.62%
+
 Task 3	CIFAR-10	93.62%
+
 Task 4	CIFAR-100	93.89%
+
 Final Model Size: 16.2 Million parameters
 
 These results demonstrate strong retention on earlier tasks (minimal forgetting on MNIST and Fashion-MNIST) while progressively learning more complex ones.
