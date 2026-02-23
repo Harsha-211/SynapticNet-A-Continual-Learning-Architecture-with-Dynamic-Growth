@@ -2,9 +2,6 @@
 A PyTorch implementation of a novel Continual Learning (CL) architecture designed to combat catastrophic forgetting through task-specific parameter masking and a dynamic growth mechanism dubbed "NeuronGenesis".
 SynapticNet: A Continual Learning Architecture with Dynamic Growth
 
-
-A PyTorch implementation of a novel Continual Learning (CL) architecture designed to combat catastrophic forgetting through task-specific parameter masking and a dynamic growth mechanism dubbed "NeuronGenesis".
-
 🧠 Overview
 Catastrophic forgetting is a fundamental challenge in neural networks, where learning new tasks causes a rapid degradation of performance on previously learned ones. SynapticNet addresses this by:
 
